@@ -28,7 +28,7 @@ Since we don't have standalone machines (with an OS that you can modify), your c
 The procedures you will write are for the sending entity (A) and the receiving entity (B). Only unidirectional transfer of data (from A to B) is required. Of course, the B side will have to send packets to A to acknowledge receipt of data. Your routines are to be implemented in the form of the procedures described below. These procedures will be called by (and will call) procedures which simulate a network environment. The overall structure of the environment is shown below:
 
 
-    https://lh3.googleusercontent.com/NAuASh68hDcVbTZmIDNBq1tqTq2lGKc28Apr8vThOY_Zj4xJOyASoF3weORrN1wOImuKDlOCeUL-hBZasECseIkoSLA3rW5XDEVLe0KIAaYOqH9Ujr9jeUEFEU5keh-IhAvlrfcr
+   ![Alt Text](https://lh3.googleusercontent.com/NAuASh68hDcVbTZmIDNBq1tqTq2lGKc28Apr8vThOY_Zj4xJOyASoF3weORrN1wOImuKDlOCeUL-hBZasECseIkoSLA3rW5XDEVLe0KIAaYOqH9Ujr9jeUEFEU5keh-IhAvlrfcr)
 
 
 The unit of data passed between the upper layers and your protocols is a message, which is declared as:
